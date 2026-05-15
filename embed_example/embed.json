@@ -1,0 +1,69 @@
+{
+  "content": "Message normal en dehors de l'embed",
+  "embeds": [
+    {
+      "title": "Titre de l'embed",
+      "type": "rich",
+      "description": "Description principale de l'embed",
+      "url": "https://example.com",
+      "timestamp": "2026-05-15T12:00:00.000Z",
+      "color": 65280,
+
+      "footer": {
+        "text": "Texte du footer",
+        "icon_url": "https://example.com/footer.png",
+        "proxy_icon_url": "https://cdn.discordapp.com/footer.png"
+      },
+
+      "image": {
+        "url": "https://example.com/image.png",
+        "proxy_url": "https://cdn.discordapp.com/image.png",
+        "height": 512,
+        "width": 1024
+      },
+
+      "thumbnail": {
+        "url": "https://example.com/thumb.png",
+        "proxy_url": "https://cdn.discordapp.com/thumb.png",
+        "height": 128,
+        "width": 128
+      },
+
+      "video": {
+        "url": "https://example.com/video.mp4",
+        "proxy_url": "https://cdn.discordapp.com/video.mp4",
+        "height": 720,
+        "width": 1280
+      },
+
+      "provider": {
+        "name": "YouTube",
+        "url": "https://youtube.com"
+      },
+
+      "author": {
+        "name": "Nom de l'auteur",
+        "url": "https://example.com",
+        "icon_url": "https://example.com/author.png",
+        "proxy_icon_url": "https://cdn.discordapp.com/author.png"
+      },
+
+      "fields": [
+        {
+          "name": "Nom du field 1",
+          "value": "Valeur du field 1",
+          "inline": true
+        },
+        {
+          "name": "Nom du field 2",
+          "value": "Valeur du field 2",
+          "inline": false
+        }
+      ]
+    }
+  ],
+
+  "attachments": [],
+  "components": [],
+  "tts": false
+}

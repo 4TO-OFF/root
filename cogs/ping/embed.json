@@ -1,0 +1,69 @@
+{
+  "content": "",
+  "embeds": [
+    {
+      "title": "Test ping",
+      "type": "rich",
+      "description": "Temps de reponse en ms",
+      "url": "",
+      "timestamp": "{timestamp}",
+      "color": "#982BDC",
+
+      "footer": {
+        "text": "root/ping.py",
+        "icon_url": "",
+        "proxy_icon_url": ""
+      },
+
+      "image": {
+        "url": "../../assets/ping.png",
+        "proxy_url": "",
+        "height": 414,
+        "width": 1920
+      },
+
+      "thumbnail": {
+        "url": "../../assets/root.png",
+        "proxy_url": "",
+        "height": 1024,
+        "width": 1024
+      },
+
+      "video": {
+        "url": "",
+        "proxy_url": "",
+        "height": 720,
+        "width": 1280
+      },
+
+      "provider": {
+        "name": "",
+        "url": ""
+      },
+
+      "author": {
+        "name": "",
+        "url": "",
+        "icon_url": "",
+        "proxy_icon_url": ""
+      },
+
+      "fields": [
+        {
+          "name": "Test ping : 1",
+          "value": "{ms} ms",
+          "inline": true
+        },
+        {
+          "name": "Test ping : 2",
+          "value": "{ms} ms",
+          "inline": false
+        }
+      ]
+    }
+  ],
+
+  "attachments": [],
+  "components": [],
+  "tts": false
+}

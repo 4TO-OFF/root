@@ -1,0 +1,3 @@
+# ouais je suis le seul ici (cogs/dossier/script.py)
+cogs/ping/ping.py
+cogs/info/info.py
