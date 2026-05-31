@@ -51,15 +51,6 @@ class Ping(commands.Cog):
         
         embed.set_footer(text="root/ping.py")
         
-        files = []
-        
-        if os.path.exists(ping_image):
-            print("[DEBUG] Ajout de l'image ping")
-            embed.set_image(url="attachment://ping.png")
-            files.append(discord.File(ping_image, filename="ping.png"))
-        else:
-            print("[DEBUG] Image ping non trouvée")
-        
         if os.path.exists(root_image):
             print("[DEBUG] Ajout du thumbnail root")
             embed.set_thumbnail(url="attachment://root.png")
